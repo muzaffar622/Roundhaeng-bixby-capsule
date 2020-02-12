@@ -1,0 +1,15 @@
+train (t-o1fpsk3ai7c9h7p372tmo9uz0) {
+  utterance ("[g:ResultPlaces] (강원도)[v:Cities:강원도] (바다)[v:PlaceType:바다] 보여 주세요")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572458291887)
+}
+train (t-oqycswf96hlw52ympt3k8un0i) {
+  utterance ("[g:ResultPlaces:continue] (서울)[v:Cities:서울]")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATBAA==)
+  last-modified (1572460141601)
+}
+train (t-oub5xvpvansow7fzc7xuqrdnf) {
+  utterance ("[g:ResultPlaces:continue] 지역을 (서울)[v:Cities:서울]로 바꿔 줘라 ")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATBAA==)
+  last-modified (1572518294624)
+}

@@ -1,0 +1,10 @@
+train (t-r4emvxnu4vhtb7byga242427b) {
+  utterance ("[g:ResultPlaces] (강원도)[v:Cities:강원도]에 (수영)[v:PlaceType:바다]할 수 있는 데가 어디 있어")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572107609188)
+}
+train (t-rvsqh3tpvqzwm8yeeradbi0pm) {
+  utterance ("[g:ResultPlaces] (대구)[v:Cities:대구] (산)[v:PlaceType:산] 정보 알려 줘")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572461179701)
+}

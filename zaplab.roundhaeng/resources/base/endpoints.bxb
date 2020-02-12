@@ -1,0 +1,16 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (searchPlaces) {
+      accepted-inputs (city, place_type, showMore)
+      local-endpoint (searchPlaces.js)
+    }
+    action-endpoint (AddPlace) {
+      accepted-inputs (recommendData, city, recommend, $vivContext)
+      local-endpoint (AddPlace.js)
+    }
+    action-endpoint (EventAmericano) {
+      accepted-inputs (number, $vivContext)
+      local-endpoint (EventAmericano.js)
+    }
+  }
+}

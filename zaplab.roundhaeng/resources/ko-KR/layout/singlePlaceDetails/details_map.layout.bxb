@@ -1,0 +1,62 @@
+layout-macro-def (details_map) {
+  params {
+    param (map) {
+      type (ResultPlaces)
+      min (Required) max (One)
+    }
+  }
+  content {
+    if(size(map.address_map) == 1){
+      section{
+        content{
+          map-card{
+            aspect-ratio(21:9)
+            title-area{
+              slot1{
+                single-line{
+                  text{
+                    value("#{value(map.address)}")
+                  }
+                }
+              }
+              slot2{
+                single-line{ 
+                  text{
+                    value {
+                      template ("위치 보려면 클릭하세요")
+                    }
+                    style (Detail_M)
+                  }
+                  image {
+                    url {
+                      template ("icons/navigation.png")
+                    }
+                    style (Detail_M_Soft)
+                  }
+                }
+              }
+            }
+            markers{
+              marker{
+                geo (map.address_map.point)
+                icon("/icons/location.png")
+                width (20)
+                height (20)
+                anchor-x (5)
+                anchor-y (15)
+                rotation (0)
+              }
+            }
+            zoom(16)
+            on-click{
+              intent{
+                goal: OpenMap
+                value: $expr(map.url)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

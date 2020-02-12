@@ -1,0 +1,25 @@
+template-macro-def (recommendDialog) {
+  content {
+    template ("또 추천하기")
+  }
+}
+template-macro-def (event) {
+  content {
+    template ("이벤트 참여하기")
+  }
+}
+template-macro-def (alreadyRecommended) {
+  content {
+    template ("추천이 완료 되었습니다")
+  }
+}
+template-macro-def (acceptDone) {
+  content {
+    template ("이벤트 참여 완료 되었습니다")
+  }
+}
+template-macro-def (existNumb) {
+  content {
+    template ("이미 이벤트에 참여 되어 있습니다.")
+  }
+}

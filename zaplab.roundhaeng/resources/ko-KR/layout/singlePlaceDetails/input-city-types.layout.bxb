@@ -1,0 +1,24 @@
+layout-macro-def (input-city-types) {
+
+  params {
+    param (city) {
+      type (Cities)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    title-card{
+    title-area {
+      halign (Center)
+      slot1 {
+        text {
+          value{
+          template ("#{value(city)}")
+          }
+        }
+      }
+    }
+  }
+  }
+}

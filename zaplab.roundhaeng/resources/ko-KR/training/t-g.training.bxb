@@ -1,0 +1,5 @@
+train (t-gp2x3qu4834gt364ryk5y6t80) {
+  utterance ("[g:ResultPlaces:continue] (바다)[v:PlaceType:바다] 가고 싶어")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATEQDEA)
+  last-modified (1573477907435)
+}

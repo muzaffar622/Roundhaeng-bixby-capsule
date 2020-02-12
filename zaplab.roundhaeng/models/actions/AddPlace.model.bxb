@@ -1,0 +1,45 @@
+action (AddPlace) {
+  type(Constructor)
+  description (나만의 장소를 추천하기)
+  collect {
+    input (recommend){
+      type (Recommend)
+      min (Required) max (One)
+    }
+    input (recommendData){
+      type (RecommendData)
+      plan-behavior (Never)
+      min (Required) max (One)
+    }
+    input (city) {
+      type (Cities)
+      min (Required) max (One)
+      plan-behavior (Never)
+      default-init {
+        intent {
+          goal: Cities
+          value-set: Cities {
+            Cities(서울) 
+            Cities(인천) 
+            Cities(대전) 
+            Cities(대구) 
+            Cities(광주) 
+            Cities(부산) 
+            Cities(울산) 
+            Cities(세종)
+            Cities(경기도)
+            Cities(강원도)
+            Cities(충청북도)
+            Cities(충청남도)
+            Cities(경상북도)
+            Cities(경상남도)
+            Cities(전라북도)
+            Cities(전라남도)
+            Cities(제주도)
+          }
+        }
+      }
+    }
+  }
+  output (ResultAddPlace)
+}

@@ -1,0 +1,70 @@
+layout-macro-def (input-place-types) {
+  params {
+    param (type) {
+      type (PlaceType)
+      min (Required) max (One)
+    }
+  }
+  content {
+    cell-card {
+    slot1 {
+      switch (type){
+        case ("공원"){
+          image {
+            url ("/place_types/park.png")
+            shape (Circle)
+          }
+        }
+        case ("바다"){
+          image {
+            url ("/place_types/sea.png")
+            shape (Circle)
+          }
+        }
+        case ("액티비티"){
+          image {
+            url ("/place_types/activity.png")
+            shape (Circle)
+          }
+        }
+        case ("놀이동산"){
+          image {
+            url ("/place_types/amusement_park.png")
+            shape (Circle)
+          }
+        }
+        case ("산"){
+          image {
+            url ("/place_types/climbing.png")
+            shape (Circle)
+          }
+        }
+        case ("문화재"){
+          image {
+            url ("/place_types/culture.png")
+            shape (Circle)
+          }
+        }
+        case ("워터파크"){
+          image {
+            url ("/place_types/waterpark.png")
+            shape (Circle)
+          }
+        }
+        case ("축제"){
+          image {
+            url ("/place_types/fest.png")
+            shape (Circle)
+          }
+        }
+      }
+    }
+      slot2 {
+        content {
+          order (SecondaryPrimary)
+          primary ("#{value(type)}")
+        }
+      }
+    }
+  }
+}

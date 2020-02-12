@@ -1,0 +1,5 @@
+train (t-35lp6ptkackfn6il3axi4rye0) {
+  utterance ("[g:ResultPlaces] (대구)[v:Cities:대구]에 요즘 (축제)[v:PlaceType:축제] 뭐가 있어요?")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1573303138662)
+}

@@ -1,0 +1,3 @@
+text (UrlOfMap) {
+  description (open url in browser)
+}

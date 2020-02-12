@@ -1,0 +1,5 @@
+train (t-f945o8gzn1bwiuoq64f3auofc) {
+  utterance ("[g:ResultPlaces:continue] (대전)[v:Cities:대전]으로")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATBAA==)
+  last-modified (1572460550982)
+}

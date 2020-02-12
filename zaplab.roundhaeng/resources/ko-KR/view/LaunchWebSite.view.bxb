@@ -1,0 +1,11 @@
+result-view {
+  match: WebSite (web_site)
+  
+  message{ 
+    template-macro(WebView)
+  }
+
+  app-launch {
+    payload-uri ("http://#{value(web_site)}")
+  }
+}

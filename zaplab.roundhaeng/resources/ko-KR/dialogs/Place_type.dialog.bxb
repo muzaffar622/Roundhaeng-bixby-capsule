@@ -1,0 +1,45 @@
+template-macro-def (showMore) {
+  content {
+    template ("또 보기")
+  }
+}
+template-macro-def (Sea) {
+  content {
+    template ("바다")
+  }
+}
+template-macro-def (Park) {
+  content {
+    template ("공원")
+  }
+}
+template-macro-def (Activity) {
+  content {
+    template ("액티비티")
+  }
+}
+template-macro-def (Climbing) {
+  content {
+    template ("산")
+  }
+}
+template-macro-def (Culture) {
+  content {
+    template ("문화")
+  }
+}
+template-macro-def (Festival) {
+  content {
+    template ("축제")
+  }
+}
+template-macro-def (Waterpark) {
+  content {
+    template ("워터파크")
+  }
+}
+template-macro-def (Amusement) {
+  content {
+    template ("놀이동산")
+  }
+}

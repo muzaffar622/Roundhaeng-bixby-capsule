@@ -1,0 +1,15 @@
+train (t-z5nx15k9e1m58bygimx4zm7ia) {
+  utterance ("[g:ResultPlaces] (전라남도)[v:Cities:전라남도] (축제)[v:PlaceType:축제] 요즘 있어")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572108956167)
+}
+train (t-zgz745sqv5eke2js8v8rue6ms) {
+  utterance ([g:OpenMap] 지도에서 보여 줘)
+  plan (Y2BmkKpKLMhJTNIryi/NS8lITM1L1wstyvFP800sYJDElPMvSM0DSeHTxsTACMQMQJKRgQFGAwA=)
+  last-modified (1572264419020)
+}
+train (t-zymu739rdbp0gv878w44w0u1x) {
+  utterance ("[g:ResultPlaces:continue] (경상남도)[v:Cities:경상남도]에")
+  plan (Y2BmkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMowMTACMQOQZGQAASYIBgA=)
+  last-modified (1572186254248)
+}

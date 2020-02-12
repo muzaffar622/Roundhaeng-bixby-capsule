@@ -1,0 +1,76 @@
+layout-macro-def (details_contacts) {
+  params {
+    param (contacts) {
+      type (ResultPlaces)
+      min (Required) max (One)
+    }
+  }
+  content {
+    if(size(contacts) >= 1){
+      section {
+        title {
+          template ("연락 정보")
+        }
+        content{
+          if(size(contacts.tel_number) == 1){
+          cell-card {
+            slot1{
+              image {
+                url ("/contacts/mobile-phone.png")
+                shape (Circle)
+              }
+            }
+            slot2 {
+              content {
+                order (PrimarySecondary)
+                primary ("[#{value(contacts.tel_number)}]")
+                secondary ("전화 걸기")
+              }
+            }
+            on-click{
+              intent{
+                goal: OpenCall
+                value: $expr(contacts.tel_number)
+              }
+            }
+          }
+          }
+          if(size(contacts.web_url) == 1){
+            cell-card {
+              slot1{
+                image {
+                  url ("/contacts/world.png")
+                  shape (Circle)
+                }
+              }
+              slot2 {
+                content {
+                  order (PrimarySecondary)
+                  primary ("[#{value(contacts.place_name)} 웹 사이트]")
+                  secondary ("웹에서 보기")
+                }
+              }
+              on-click{
+              intent{
+                goal: OpenWebSite
+                value: $expr(contacts.web_url)
+              }
+            }
+            }
+          }
+        } 
+      }
+    }
+    else {
+      section {
+        title {
+          template ("자세한 정보가 없음")
+        }
+      }
+    }
+  }
+}
+
+
+
+

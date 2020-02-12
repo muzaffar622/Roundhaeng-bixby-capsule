@@ -1,0 +1,15 @@
+train (t-pcm6q8et9t3g434x0a05raunb) {
+  utterance ("[g:ResultAddPlace:continue] 나만의 액티비티 정보를 (추천할래)[v:Recommend:recommend]")
+  plan (Y2BmUKhKLMhJTNIryi/NS8lITM1L1wtKLS7NKXFMSQnISUxOZZDCVAGXk8amOzk/Nzc1L4WBiYERiBmAJCMDCDBBMAA=)
+  last-modified (1573657573527)
+}
+train (t-pjyley0z5km0rtthkj13frg9e) {
+  utterance ("[g:ResultPlaces:continue] (놀거리)[v:PlaceType:액티비티]로 바꿔 줘")
+  plan (Y2BmkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXxpQHy4RUFqQyMDEwAjEDkGRkAAEmCAYA)
+  last-modified (1572266295669)
+}
+train (t-pp869sgybuov4qk1blxa9n7uc) {
+  utterance ([g:Price] 요금 보여 줘)
+  plan (Y2BkEK9KLMhJTNIryi/NS8lITM1L1wsoykxOZQABRhABAA==)
+  last-modified (1572465015401)
+}

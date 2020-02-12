@@ -1,0 +1,10 @@
+train (t-4hwtcmwtsi4eoxuzdh7ep10k5) {
+  utterance ("[g:ResultPlaces] (전남)[v:Cities:전라남도]에 (놀이동산)[v:PlaceType:놀이동산] 리스트 봐봐")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572516325291)
+}
+train (t-4swi2fiotwd567bc1xn3btvi9) {
+  utterance ("[g:ResultPlaces:continue] (액티비티)[v:PlaceType:액티비티] 보여 줘")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATEQDEA)
+  last-modified (1572147760673)
+}

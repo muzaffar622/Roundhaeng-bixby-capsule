@@ -1,0 +1,29 @@
+capsule {
+  id (example.roundhaeng)
+  version (0.0.1)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+
+  store-sections {
+    section (TravelAndTransportation)
+  }
+
+  runtime-version (2)
+
+  capsule-imports {
+    import (viv.core) { as (core)}
+    import (viv.entity) { as (entity) version(4.0.2) }
+    import (viv.geo) { as (geo) version-from(entity) }
+  }
+  permissions {
+    bixby-user-id-access
+  }
+
+  store-countries {
+    only{
+      allow (KR)
+    }
+  }
+}

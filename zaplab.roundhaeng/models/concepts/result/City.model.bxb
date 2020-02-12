@@ -1,0 +1,3 @@
+text (City) {
+  description (the City name of searching place)
+}

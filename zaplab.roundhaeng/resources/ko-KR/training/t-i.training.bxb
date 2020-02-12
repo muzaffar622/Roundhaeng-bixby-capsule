@@ -1,0 +1,15 @@
+train (t-i0nvvggmj5trg39s5gdrokykf) {
+  utterance ("[g:ResultPlaces:continue] 장소를 (서울)[v:Cities:서울]로 바꿔 줘")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATBAA==)
+  last-modified (1572458205513)
+}
+train (t-it6wpq0ab1t9z3njsmstovzwj) {
+  utterance ("[g:ResultPlaces] 이번 주에 (충남)[v:Cities:충청남도]에 무슨 (축제)[v:PlaceType:축제] 있는지 알려 줘 봐")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572457634008)
+}
+train (t-iwsk01e4z6i3d25fwnwlodt6q) {
+  utterance ("[g:ResultPlaces] (충북)[v:Cities:충청북도]에 있는 (바다)[v:PlaceType:바다] 리스트 보여 줄래")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572458719120)
+}

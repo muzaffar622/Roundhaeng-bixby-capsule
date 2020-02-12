@@ -1,0 +1,10 @@
+train (t-l9gk9hs2cccnl2t5ko4qeo1x3) {
+  utterance ("[g:ResultPlaces] (서울)[v:Cities:서울]에 요즘 (축제)[v:PlaceType:축제] 어디 있어")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572155365793)
+}
+train (t-ljcjwgim1qhe6kcjker8hvx14) {
+  utterance ("[g:ResultPlaces:continue] 장소는 (울산)[v:Cities:울산]으로")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATBAA==)
+  last-modified (1572458414371)
+}

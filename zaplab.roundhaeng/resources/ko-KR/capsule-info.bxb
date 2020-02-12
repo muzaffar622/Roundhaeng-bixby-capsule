@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (display-name)
+  developer-name (developer-name)
+  icon-asset ()
+  description ("국내 액티비티, 축제, 산, 바다, 워터파크, 놀이동산, 공원, 문화재 등 다양한 장소 정보를 확인해보세요")
+  search-keywords{
+    keyword (여행)
+    keyword (축제)
+  }
+  privacy-policy-url (https://github.com/muzaffar622/Round-/blob/master/README.md)
+  dispatch-name (라운드 행)
+}

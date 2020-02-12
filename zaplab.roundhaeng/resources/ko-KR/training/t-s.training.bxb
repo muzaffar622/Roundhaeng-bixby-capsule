@@ -1,0 +1,10 @@
+train (t-s8p968vm33n74946lg4y1i7zz) {
+  utterance ("[g:ResultPlaces:continue] (경상남도)[v:Cities:경상남도]")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATBAA==)
+  last-modified (1572516556895)
+}
+train (t-sk3f7uxadh1s6k3djghlhso7g) {
+  utterance ([g:OpenWebSite] 왭사이트 보여 줘)
+  plan (Y2BmkKxKLMhJTNIryi/NS8lITM1L1wtPTQrOLEllkMWU8i9IzYNJ49HJxMAIxAxAkpGBAUYDAA==)
+  last-modified (1572264450322)
+}

@@ -1,0 +1,10 @@
+train (t-a6ep4bezddq3l3ll7we5dff1a) {
+  utterance ("[g:ResultPlaces] (경기)[v:Cities:경기도]에 (놀이동산)[v:PlaceType:놀이동산] 어디가 좋아?")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572266192244)
+}
+train (t-acspmkolq7xxz2fuco9ymkhax) {
+  utterance ("[g:ResultPlaces] (강원도)[v:Cities:강원도] (바다)[v:PlaceType:바다] 보여 줘")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572186042427)
+}

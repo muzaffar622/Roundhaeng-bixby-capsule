@@ -1,0 +1,10 @@
+train (t-w15pwuzc688slfyrqxhafcovj) {
+  utterance ([g:Playtime] 시간 보여 줘)
+  plan (Y2BkkKpKLMhJTNIryi/NS8lITM1L1wvISawsycxNZQABRhABAA==)
+  last-modified (1572465051549)
+}
+train (t-wsgdnxh27jjcdu5rezt52t6tz) {
+  utterance ("[g:ResultPlaces] (제주)[v:Cities:제주도]에 있는 (산)[v:PlaceType:산] 보여 줘봐")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572458284264)
+}

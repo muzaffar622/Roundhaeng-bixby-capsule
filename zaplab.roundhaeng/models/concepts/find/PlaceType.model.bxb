@@ -1,0 +1,11 @@
+enum (PlaceType) {
+  description (type of search place)
+  symbol (공원)
+  symbol (바다)
+  symbol (액티비티)
+  symbol (산)
+  symbol (문화재)
+  symbol (축제)
+  symbol (워터파크)
+  symbol (놀이동산)
+}

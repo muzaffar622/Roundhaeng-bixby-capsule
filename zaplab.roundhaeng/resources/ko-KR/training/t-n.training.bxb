@@ -1,0 +1,10 @@
+train (t-n5ebmqnm94t5lholtihtlmsld) {
+  utterance ("[g:ResultPlaces:continue] (공원)[v:PlaceType:공원]으로 바꿔 줘")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATEQDEA)
+  last-modified (1572144913070)
+}
+train (t-ntvba847c353mjcl5jl6rzlw4) {
+  utterance ([g:EventResult] 이벤트 참여하기)
+  plan (Y2BkkK1KLMhJTNIryi/NS8lITM1L13MtS80rCUotLs0pYQABRhABAA==)
+  last-modified (1573659128368)
+}

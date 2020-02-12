@@ -1,0 +1,73 @@
+layout-macro-def (details_information) {
+  params {
+    param (inform) {
+      type (ResultPlaces)
+      min (Required) max (One)
+    }
+  }
+  content {
+    if(size(inform.hours) ==1 || size(inform.days) == 1){
+      section {
+        title {
+          template ("운영 정보")
+        }
+        content{
+          hbox {
+            content {
+              vbox {
+                halign (Start)
+                content {
+                  single-line{
+                    if(size(inform.days) == 1){
+                      image {
+                        url {
+                          template ("icons/calendar.png")
+                        }
+                        style (Detail_L)
+                      }
+                    }
+                  } 
+                  single-line{
+                    if(size(inform.hours) == 1){
+                      image {
+                        url {
+                          template ("icons/clock.png")
+                        }
+                        style (Detail_L)
+                      }
+                    }
+                  } 
+                }
+              }
+              vbox {
+                halign (End)
+                content {
+                  single-line{
+                    if(size(inform.days) == 1){
+                      text {
+                        value {
+                          template ("[#{value (inform.days)}]")
+                        }
+                        style (Detail_M_Soft)
+                      }
+                    }
+                  }
+                  single-line{
+                    if(size(inform.hours) == 1){
+                      text {
+                        value {
+                          template ("[#{value (inform.hours)}]")
+                        }
+                        style (Detail_L_Soft)
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

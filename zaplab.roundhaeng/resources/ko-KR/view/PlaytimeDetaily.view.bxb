@@ -1,0 +1,34 @@
+result-view {
+  match: Playtime (this)
+  
+  message {
+    template ("선택하신 정보에 대한 공연 시간 내용입니다.") 
+  }
+  render{
+    layout{
+      section{
+        content{
+          single-line{
+            text{
+              value("공연 시간")
+            }
+            spacer
+            spacer
+            image{
+              url{
+                template ("icons/content.png")
+              }
+            }
+          }
+          compound-card{
+            content{
+              paragraph{
+                value ("[#{value(this)}]")
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

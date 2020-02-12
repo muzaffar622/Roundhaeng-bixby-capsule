@@ -1,0 +1,10 @@
+train (t-80g0ufr6vdevi4r2tp4v6p18i) {
+  utterance ("[g:ResultPlaces:continue] 장소를 (워터파크)[v:PlaceType:워터파크]로 바꿔 주라")
+  plan (Y2BmkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXxpQHy4RUFqQyMDEwAjEDkGRkAAEmCAYA)
+  last-modified (1572458331457)
+}
+train (t-8nw8yhe162kv5jzgg5bgaw4ev) {
+  utterance ([g:Playtime] 공연 시간 보여 줘)
+  plan (Y2BkkKpKLMhJTNIryi/NS8lITM1L1wvISawsycxNZQABRhABAA==)
+  last-modified (1572185850058)
+}

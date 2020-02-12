@@ -1,0 +1,4 @@
+enum (Recommend) {
+  description (Recommend a new places)
+  symbol (recommend)
+}

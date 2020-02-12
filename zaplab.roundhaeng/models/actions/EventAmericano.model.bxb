@@ -1,0 +1,11 @@
+action (EventAmericano) {
+  description (event)
+  type(Search)
+  collect {
+    input (number) {
+      type (Phone)
+      min (Required) max (One)
+    }
+  }
+  output (EventResult)
+}

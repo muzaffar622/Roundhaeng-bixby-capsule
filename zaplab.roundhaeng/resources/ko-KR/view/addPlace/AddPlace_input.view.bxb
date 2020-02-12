@@ -1,0 +1,27 @@
+input-view{
+  match{
+    RecommendData(recommendData){
+      to-input: AddPlace
+    }
+  }
+  message {
+    template ("추천하실 액티비티 이름을 입력해 주세요")
+  }
+  render{
+    form {
+      elements {
+        text-input {
+          id (recommendData)
+          label (액티비티 이름 (예: 윈드서핑))
+          type (RecommendData)
+          max-length (100)
+          value ("#{raw(recommendData)}")
+        }
+      }
+      on-submit {
+        goal: RecommendData
+        value: viv.core.FormElement(recommendData)
+      }
+    }
+  }
+}

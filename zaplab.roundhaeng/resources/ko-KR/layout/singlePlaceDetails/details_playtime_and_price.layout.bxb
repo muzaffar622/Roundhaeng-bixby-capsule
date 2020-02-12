@@ -1,0 +1,46 @@
+layout-macro-def (details_playtime_and_price) {
+  params {
+    param (this) {
+      type (ResultPlaces)
+      min (Required) max (Many)
+    }
+  }
+  content {
+    section{
+      content{
+        if(size(this.playtime)==1){
+          input-cell {
+            label {
+              template ("공연 시간")
+            }
+            value {
+              template ("[#{value(this.playtime)}]")
+            }
+            on-click{
+              intent{
+                goal: Playtime
+                value: $expr(this.playtime)
+              }
+            }
+          }
+        }
+        if(size(this.price)==1){
+          input-cell {
+            label {
+              template ("이용 요금")
+            }
+            value {
+              template ("[#{value(this.price)}]")
+            }
+            on-click{
+              intent{
+                goal: Price
+                value: $expr(this.price)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

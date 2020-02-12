@@ -1,0 +1,80 @@
+structure (ResultPlaces) {
+  description (result of places list)
+
+  property (images) {
+    type (Image)
+    min (Required) max (Many)
+  }
+  property (place_name) {
+    type (Name)
+    min (Required) max (One)
+  }
+  property (about) {
+    type (About)
+    min (Optional) max (One)
+  }
+  property (playtime) {
+    type (Playtime)
+    min (Optional) max (One)
+  }
+  property (period) {
+    type (Period)
+    min (Optional) max (One)
+  }
+  property (price) {
+    type (Price)
+    min (Optional) max (One)
+  }
+  property (place_type) {
+    type (Type)
+    min (Optional) max (One)
+  }
+  property (address) {
+    type (Address)
+    min (Required) max (One)
+  }
+  property (city) {
+    type (City)
+    min (Optional) max (One)
+  }
+  property (address_map) {
+    type (AddressMap)
+    min (Required) max (One)
+  }
+  property (days) {
+    type (Days)
+    min (Optional) max (One)
+  } 
+  property (hours) {
+    type (Hours)
+    min (Optional) max (One)
+  }
+  property (web_url) {
+    type (WebSite)
+    min (Optional) max (One)
+  }
+  property (tel_number) {
+    type (Phone)
+    min (Optional) max (One)
+  }
+  property (status) {
+    type (PlaceStatus)
+    min (Optional) max (One)
+  }
+  property (url) {
+    type (UrlOfMap)
+    min (Optional) max (One)
+  }
+  property (amenities) {
+    type (Amenities)
+    min (Optional) max (Many)
+  }
+  property (event) {
+    type (Event)
+    min (Required) max (One)
+  }
+  property (limit) {
+    type (Limit)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,18 @@
+input-view {
+ match : PlaceType(types)
+  message{ 
+    template-macro(inputType)
+  }
+
+  render {
+    selection-of (types) {
+    where-each (type) {
+      layout-macro (input-place-types) {
+        param (type) {
+          expression (type)
+        }
+      }
+    }
+  }
+ }
+}

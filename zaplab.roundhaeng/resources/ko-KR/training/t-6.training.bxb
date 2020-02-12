@@ -1,0 +1,5 @@
+train (t-66sbez1ola4p0x7l8u2ayuj0i) {
+  utterance ("[g:ResultPlaces] (경기)[v:Cities:경기도]에서 (문화재)[v:PlaceType:문화재] 즐기로 어디로 갈 수 있어?")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572516433187)
+}

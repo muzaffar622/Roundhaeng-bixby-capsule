@@ -1,0 +1,18 @@
+input-view {
+ match : Cities(cities)
+
+  message{ 
+    template-macro(inputCity)
+  }
+  render {
+    selection-of (cities) {
+    where-each (city) {
+      layout-macro (input-city-types) {
+        param (city) {
+          expression (city)
+        }
+      }
+    }
+  }
+ }
+}

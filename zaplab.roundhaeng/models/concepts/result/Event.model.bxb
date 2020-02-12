@@ -1,0 +1,3 @@
+boolean (Event) {
+  description (is place fest or not)
+}

@@ -1,0 +1,25 @@
+layout-macro-def (terms_link) {
+  params {
+    param (term) {
+      type (ResultPlaces)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+    title{
+        template("주의")
+    }
+    content{
+        paragraph{
+            value {
+              template ("본 [#{value(term.place_type)}]의 운영 시간이 바꾸거나 중지 될 수 도 있으니 연락 정보를 이용해 확인하세요.")
+            }
+            style (Legal)
+        }
+    }
+}
+  }
+}
+
+

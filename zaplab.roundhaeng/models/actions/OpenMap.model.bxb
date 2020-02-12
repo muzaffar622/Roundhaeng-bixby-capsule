@@ -1,0 +1,15 @@
+action (OpenMap) {
+  description (See route on map if click the map)
+  type(Constructor)
+  collect {
+    input (url) {
+      type (UrlOfMap)
+      min (Required) max (One)
+    }
+  }
+  output (UrlOfMap){
+    evaluate{
+      $expr(url)
+    }
+  }
+}

@@ -1,0 +1,17 @@
+layout-macro-def (details_image_carousel) {
+  params {
+    param (images) {
+      type (ResultPlaces)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      content {
+        image-carousel {
+          images (images.images)
+        }
+      }
+    }
+  }
+}

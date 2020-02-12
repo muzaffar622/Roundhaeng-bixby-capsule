@@ -1,0 +1,29 @@
+template-macro-def (WebView) {
+  content {
+    template ("웹에서 보기로 이동합니다")
+  }
+}
+
+template-macro-def (PhoneView) {
+  content {
+    template ("전화 걸기로 이동합니다")
+  }
+}
+
+template-macro-def (MapView) {
+  content {
+    template ("지도에 보기로 이동합니다")
+  }
+}
+
+template-macro-def (inputCity) {
+  content {
+    template ("지역을 선택해 주실래요?")
+  }
+}
+
+template-macro-def (inputType) {
+  content {
+    template ("어떤 곳에 가고 싶으신지 알려 주실래요?")
+  }
+}

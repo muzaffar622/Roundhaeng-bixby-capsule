@@ -1,0 +1,5 @@
+train (t-vf35emrbbh5x9v2qaev9q072v) {
+  utterance ("[g:ResultAddPlace] (또 추천하기)[v:Recommend:recommend]")
+  plan (Y2BmUKhKLMhJTNIryi/NS8lITM1L1wtKLS7NKXFMSQnISUxOZZDCVAGXk8amOzk/Nzc1L4WBiYERiBmAJCMDCDBBMAA=)
+  last-modified (1573657732745)
+}

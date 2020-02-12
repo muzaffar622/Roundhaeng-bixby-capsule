@@ -1,0 +1,52 @@
+layout-macro-def (places_list) {
+  params {
+    param (resultPlaces) {
+      type (ResultPlaces)
+      min (Required) max (One)
+    }
+  }
+  content {
+    thumbnail-card {
+    title-area {
+      halign (Start)
+      slot1 {
+        single-line{
+        text {
+          value ("#{value(resultPlaces.place_name)}")
+          style (Title_S)
+        }
+        spacer
+        }
+      }
+      slot2 {
+        single-line {
+          text {
+            value ("#{value(resultPlaces.address)}")
+            style (Detail_M_Soft)
+          }
+        }
+      }
+      slot3 {
+        single-line {
+          text {
+            value ("[#{value(resultPlaces.place_type)}]")
+            style (Detail_M_Soft)
+          }
+          spacer
+          image {
+            url {
+              template ("/status/[#{value(resultPlaces.status)}].png")
+            }
+            style (Detail_L)
+          }
+        }
+      }
+    }
+    image-url {
+      template ("[#{value(resultPlaces.images[0].url)}]")
+    }
+    image-position (End)
+    image-aspect-ratio(1:1)
+    }
+  }
+}

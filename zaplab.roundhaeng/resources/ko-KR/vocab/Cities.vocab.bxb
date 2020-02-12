@@ -1,0 +1,19 @@
+vocab(Cities){
+"서울" {"Seoul" "서울특별시" "수도" "서울"}
+"인천" {"Incheon" "인천광역시" "인천"}
+"대전" {"Daejon" "대전광역시" "대전"}
+"대구" {"Daegu" "대구" "대프리카"}
+"광주" {"Gwangju" "광주"}
+"부산" {"Busan" "부산광역시" "부산"}
+"울산" {"Ulsan" "울산"}
+"세종" {"Sejong" "세종특별자치시" "세종"}
+"경기도" {"Gyeonggi-do" "경기도" "경기"}
+"강원도" {"Gangwon-do" "강원도" "강원"}
+"충청북도" {"Chungcheongbuk-do" "충북" "충청북도"}
+"충청남도" {"Chungcheongnam-do" "충청남도" "충남"}
+"경상북도" {"Gyeongsangbuk-do" "경상북도" "경북"}
+"경상남도" {"Gyeongsangnam-do" "경상남도" "경남"}
+"전라북도" {"Jeollabuk-do" "전라북도" "전북"}
+"전라남도" {"Jeollanam-do" "전라남도" "전남"}
+"제주도" {"Jeju-do" "제주도" "제주"}
+}

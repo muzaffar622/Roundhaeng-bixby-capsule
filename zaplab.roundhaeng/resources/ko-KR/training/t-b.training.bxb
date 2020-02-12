@@ -1,0 +1,20 @@
+train (t-bb1kfumizy26f0ifwwpbc65ia) {
+  utterance ("[g:ResultPlaces] (부산)[v:Cities:부산] (놀거리)[v:PlaceType:액티비티] 보여 줘")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572266286653)
+}
+train (t-bd71mxozumucfxfxe47swnx2y) {
+  utterance ("[g:ResultPlaces:continue] (또 보여 줘)[v:ShowMore]")
+  plan (Y2BmkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwpQPzsgv980vSmVgYmAEYgYgycgAAkwQDAA=)
+  last-modified (1572267521674)
+}
+train (t-bts0pa3kzfid6yrxexegcv59c) {
+  utterance ("[g:ResultPlaces:continue] 장소를 (산)[v:PlaceType:산]으로 바꿔 줘")
+  plan (Y2BmkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXxpQHy4RUFqQyMDEwAjEDkGRkAAEmCAYA)
+  last-modified (1573302717484)
+}
+train (t-bxb4z4lld6urrwnksa6pfnnqy) {
+  utterance ("[g:ResultPlaces] (부산)[v:Cities:부산]에 있는 (바다)[v:PlaceType:바다] 추천해 줘")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1573302957633)
+}

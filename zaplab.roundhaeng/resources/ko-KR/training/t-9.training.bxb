@@ -1,0 +1,5 @@
+train (t-92rhu0gz7oql4tpe9aupvydp7) {
+  utterance ("[g:ResultPlaces] (강원도)[v:Cities:강원도] (바다)[v:PlaceType:바다] 리스트 말해 봐")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572457793490)
+}

@@ -1,0 +1,10 @@
+structure (ResultAddPlace) {
+  property (event) {
+    type (Event)
+    min (Required) max (One)
+  }
+  property (status) {
+    type (PlaceStatus)
+    min (Optional) max (One)
+  }
+}

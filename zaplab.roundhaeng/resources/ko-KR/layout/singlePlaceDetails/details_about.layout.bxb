@@ -1,0 +1,18 @@
+layout-macro-def (details_about) {
+  params {
+    param (description) {
+      type (ResultPlaces)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      content {
+         paragraph {
+          value ("[#{value(description.about)}]")
+          style (Detail_M)
+        }
+      }
+    }
+  }
+}

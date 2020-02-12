@@ -1,0 +1,102 @@
+ action (searchPlaces) {
+  type(Search)
+  description (searches places by city name and type of place)
+  collect {
+    input (city) {
+      type (Cities)
+      min (Required) max (One)
+      validate{
+        if(!exists(city) && exists(place_type)){
+          halt{
+            dialog{
+              template ("어디에 있는 [#{value(place_type)}]에 가고 싶으신지 말씀 해 주실래요?")
+            }
+          }
+        }
+      }
+      plan-behavior (Always)
+      default-init {
+        intent {
+          goal: Cities
+          value-set: Cities { 
+            Cities(서울) 
+            Cities(인천) 
+            Cities(대전) 
+            Cities(대구) 
+            Cities(광주) 
+            Cities(부산) 
+            Cities(울산) 
+            Cities(세종)
+            Cities(경기도)
+            Cities(강원도)
+            Cities(충청북도)
+            Cities(충청남도)
+            Cities(경상북도)
+            Cities(경상남도)
+            Cities(전라북도)
+            Cities(전라남도)
+            Cities(제주도)}
+        }
+      }
+    }
+    input (place_type) {
+      type (PlaceType)
+      min (Required) max (One)
+      validate{
+       if(exists(city) && !exists(place_type)){
+          halt{
+            dialog{
+              template ("[#{value(city)}]에 있는 어떤 곳에 가고 싶으세요?")
+            }
+          }
+        } 
+      }
+      plan-behavior (Always)
+      default-init {
+        intent {
+          goal: PlaceType
+          value-set: PlaceType { 
+            PlaceType(공원) 
+            PlaceType(바다) 
+            PlaceType(액티비티) 
+            PlaceType(산) 
+            PlaceType(문화재) 
+            PlaceType(축제) 
+            PlaceType(워터파크) 
+            PlaceType(놀이동산)}
+        }
+      }
+    }
+    input (showMore) {
+      type (ShowMore)
+      min (Optional) max (One)
+    }
+  }
+  output (ResultPlaces){
+    on-empty{
+      halt{
+        dialog("[#{value(city)}]에 있는 [#{value(place_type)}] 정보는 없습니다")
+      }
+    }
+    throws{
+      error (fieldsAreEmpty){
+        on-catch{
+          halt{
+            dialog{
+              template ("장소 하고 어떤 곳에 가고 싶으신지 알려 주실래요?")
+            }
+          }
+        }
+      }
+      unknown-error{
+        on-catch{
+          halt{
+            dialog{
+              template ("서버 문제 때문에 실행이 안 되었습니다")
+            }
+          }
+        }
+      }
+    }
+  } 
+}

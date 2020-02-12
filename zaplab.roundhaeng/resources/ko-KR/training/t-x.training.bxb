@@ -1,0 +1,5 @@
+train (t-xsbk663n64g2r5iaf2ff57fra) {
+  utterance ("[g:ResultPlaces:continue] (바다)[v:PlaceType:바다]")
+  plan (Y2BmkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXxpQHy4RUFqQyMDEwAjEDkGRkAAEmCAYA)
+  last-modified (1572264494281)
+}

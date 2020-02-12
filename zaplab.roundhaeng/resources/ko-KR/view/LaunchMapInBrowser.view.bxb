@@ -1,0 +1,10 @@
+result-view {
+  match: UrlOfMap (map)
+  
+  message{ 
+    template-macro(MapView)
+    }
+  app-launch {
+    payload-uri ("#{value(map)}")
+  }
+}

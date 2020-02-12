@@ -1,0 +1,6 @@
+structure (EventResult) {
+  property (status) {
+    type (PlaceStatus)
+    min (Required) max (One)
+  }
+}

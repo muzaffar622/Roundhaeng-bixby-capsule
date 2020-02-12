@@ -1,0 +1,15 @@
+action (OpenWebSite) {
+  description (launch web site in browser)
+  type(Constructor)
+  collect {
+    input (web_url) {
+      type (WebSite)
+      min (Required) max (Many)
+    }
+  }
+  output (WebSite){
+    evaluate{
+      $expr(web_url)
+    }
+  }
+}

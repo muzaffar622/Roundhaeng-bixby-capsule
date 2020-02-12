@@ -1,0 +1,41 @@
+layout-macro-def (details_name) {
+  params {
+    param (name) {
+      type (ResultPlaces)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section{
+      content{
+        title-area {
+          halign (Center)
+          slot1 {
+            text {
+              style (Title_S)
+              value ("#{value(name.place_name)}")
+            }
+          }
+          slot2 {
+            single-line {
+              text {
+                style (Title_XS)
+                value ("[#{value(name.place_type)}]")
+              }
+            }
+          }
+          slot3 {
+            single-line {
+              image {
+                url {
+                  template ("/status/[#{value(name.status)}].png")
+                }
+                style (Detail_L)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

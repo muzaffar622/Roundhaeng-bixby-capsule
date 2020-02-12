@@ -1,0 +1,15 @@
+train (t-ma7myuehp11pk4364ea5jdl1w) {
+  utterance ("[g:ResultPlaces] (대전)[v:Cities:대전]에 (바다)[v:PlaceType:바다] 어떻게 갈 수 있는지 보여 줘 봐")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572516380458)
+}
+train (t-mpnhglgu13hdccq7c9x38eb2c) {
+  utterance ([g:Price] 가격 보여 줘)
+  plan (Y2BkEK9KLMhJTNIryi/NS8lITM1L1wsoykxOZQABRhABAA==)
+  last-modified (1572516326689)
+}
+train (t-mrp3rnp0reb81mu7nwhrr4x2c) {
+  utterance ("[g:ResultAddPlace] (액티비티 등록할래)[v:Recommend:recommend]")
+  plan (Y2BmUKhKLMhJTNIryi/NS8lITM1L1wtKLS7NKXFMSQnISUxOZZDCVAGXk8amOzk/Nzc1L4WBiYERiBmAJCMDCDBBMAA=)
+  last-modified (1573817559828)
+}

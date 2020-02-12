@@ -1,0 +1,11 @@
+result-view {
+  match: Phone (phone)
+
+  message{ 
+    template-macro (PhoneView)
+  }
+  
+  app-launch {
+    payload-uri ("tel:#{value(phone)}")
+  }
+}

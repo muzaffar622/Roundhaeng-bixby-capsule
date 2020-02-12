@@ -1,0 +1,20 @@
+train (t-54hzgrv6x9w0ozsde5bw7u1sm) {
+  utterance ("[g:ResultPlaces] (인천)[v:Cities:인천]에 갈만한 (워터파크)[v:PlaceType:워터파크] 어디 있어?")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572186188411)
+}
+train (t-5erle3d05zf0qtxia3oi4xqen) {
+  utterance ("[g:ResultPlaces:continue] (인천)[v:Cities:인천]에")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATBAA==)
+  last-modified (1572460189422)
+}
+train (t-5gjyyym6224gia1v18ppimv1h) {
+  utterance ("[g:ResultPlaces] (울산)[v:Cities:울산]에 (액티비티)[v:PlaceType:액티비티] 같은 거 뭐가 있는지 보여 주세요")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572457894587)
+}
+train (t-5oaheh3vo5dam20nkkz4gc20f) {
+  utterance ([g:OpenCall] 전화 걸어 줘)
+  plan (Y2BmEK9KLMhJTNIryi/NS8lITM1L1wvIyM9LZZDClPAvSM1zTszJwa2JiYERiBmAJCMDA4wGAA==)
+  last-modified (1572264359818)
+}

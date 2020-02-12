@@ -1,0 +1,10 @@
+train (t-t3bxfjh3mk4mrq28rsfd6xx3l) {
+  utterance ([g:Price] 이용요금 보여 줘)
+  plan (Y2BkEK9KLMhJTNIryi/NS8lITM1L1wsoykxOZQABRhABAA==)
+  last-modified (1572185829735)
+}
+train (t-tytwu3z5b6uokv49sxo2n7b9e) {
+  utterance ("[g:ResultPlaces] (인천)[v:Cities:인천]에 있는 (산)[v:PlaceType:산] 리스트 알려 줘")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1572457745768)
+}

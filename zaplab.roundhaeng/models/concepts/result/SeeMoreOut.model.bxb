@@ -1,0 +1,11 @@
+structure (SeeMoreOut) {
+  description (see more)
+  property (price) {
+    type (Price)
+    min (Optional) max (One)
+  }
+  property (playtimr) {
+    type (Playtime)
+    min (Optional) max (One)
+  }
+}

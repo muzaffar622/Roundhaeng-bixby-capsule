@@ -1,0 +1,25 @@
+layout-macro-def (details_type) {
+  params {
+    param (type) {
+      type (ResultPlaces)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section{
+      content{
+        title-area {
+          halign (Center)
+          slot2 {
+            single-line {
+              text {
+                value ("[#{value(type.place_type)}]")
+                style (Title_XS)
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

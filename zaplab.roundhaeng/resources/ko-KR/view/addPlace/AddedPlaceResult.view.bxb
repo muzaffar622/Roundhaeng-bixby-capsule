@@ -1,0 +1,22 @@
+result-view {
+  match: ResultAddPlace(this)
+  message {
+    template-macro (alreadyRecommended)
+  }
+
+  render{  
+    layout{
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template-macro (recommendDialog)
+    }
+    // if (event == 'true'){
+    //   conversation-driver {
+    //     template-macro (event)
+    //   }
+    // }
+  }
+}

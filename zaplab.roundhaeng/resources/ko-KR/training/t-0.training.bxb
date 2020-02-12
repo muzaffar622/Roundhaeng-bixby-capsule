@@ -1,0 +1,10 @@
+train (t-0gdx9a1nxyty0m0yvo6ot6mu8) {
+  utterance ("[g:ResultPlaces] (서울)[v:Cities:서울]에 있는 (공원)[v:PlaceType:공원] 리스트 보여 줘")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1573302937479)
+}
+train (t-0luukgrqyk021t67i0ecj89y8) {
+  utterance ("[g:ResultPlaces] (인천)[v:Cities:인천]에 (문화재)[v:PlaceType:문화재] 뭐가 좋아?")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQAOKDRQE=)
+  last-modified (1573302944495)
+}

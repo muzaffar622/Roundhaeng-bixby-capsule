@@ -1,0 +1,5 @@
+train (t-q6qbx8cmdup34lcjsa34cx8v0) {
+  utterance ("[g:ResultPlaces:continue] (제주)[v:Cities:제주도]에 있는")
+  plan (Y2BhkKtKLMhJTNIryi/NS8lITM1L1wtKLS7NKQnISUxOLcYmX5yaWJScAZWXwJR3zizJBMpIY8qA9YRUFqQyMDMwMjABSQYgDYIQwATBAA==)
+  last-modified (1572516493712)
+}

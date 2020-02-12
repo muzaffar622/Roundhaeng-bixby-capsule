@@ -1,0 +1,15 @@
+action (OpenCall) {
+  description (launch phone app)
+  type(Constructor)
+  collect {
+    input (tel_number) {
+      type (Phone)
+      min (Required) max (One)
+    }
+  }
+  output (Phone){
+    evaluate{
+      $expr(tel_number)
+    }
+  }
+}

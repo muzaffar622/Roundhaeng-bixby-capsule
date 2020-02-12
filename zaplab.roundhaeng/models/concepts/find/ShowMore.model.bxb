@@ -1,0 +1,6 @@
+text (ShowMore) {
+  description (또 보기 button)
+features{
+  transient
+}
+}

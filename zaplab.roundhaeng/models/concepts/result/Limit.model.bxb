@@ -1,0 +1,3 @@
+boolean (Limit) {
+  description (limit for row list)
+}

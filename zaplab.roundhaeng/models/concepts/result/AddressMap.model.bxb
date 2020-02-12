@@ -1,0 +1,4 @@
+structure (AddressMap) {
+  description (show address on map using lat ,long of address)
+  role-of (geo.NamedPoint)
+}

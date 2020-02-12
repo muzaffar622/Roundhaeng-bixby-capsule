@@ -1,0 +1,127 @@
+  result-view {
+  match: ResultPlaces(this)
+
+  message {
+    if(size(this) == 1){
+      if(event == false){
+        template ("이 [#{value(this.place_type)}] 어떠세요?")
+      }
+        template ("이 곳은 어떠세요?")
+    }else{
+      if(event == false){
+        template ("[#{value(this.city)}]에 있는 [#{value(this.place_type)}] 리스트 입니다") 
+      }
+      else{
+        template ("축제 리스트 입니다") 
+      }
+    }   
+  }
+  render {
+    if (size(this) > 1) {
+      list-of (this) {
+        where-each (ResultPlaces) {
+          layout-macro (places_list) {
+            param (resultPlaces) {
+              expression(ResultPlaces)
+            }
+          }
+        }
+      }
+    } else-if (size(this) == 1) {
+      layout{
+        layout-macro (details_image_carousel) {
+          param (images) {
+            expression (this)
+          }
+        }
+        layout-macro (details_name) {
+          param (name) {
+            expression (this)
+          }
+        }
+        layout-macro (details_about) {
+          param (description) {
+            expression (this)
+          }
+        }
+        layout-macro (details_information) {
+          param (inform) {
+            expression (this)
+          }
+        }
+        layout-macro (details_playtime_and_price) {
+          param (this) {
+            expression (this)
+          }
+        }
+        layout-macro (details_contacts) {
+          param (contacts) {
+            expression (this)
+          }
+        }
+        layout-macro (details_map) {
+          param (map) {
+            expression (this)
+          }
+        }
+        layout-macro (details_amenities) {
+          param (amenities) {
+            expression (this)
+          }
+        }
+        layout-macro (terms_link) {
+          param (term) {
+            expression (this)
+          }
+        }
+      }
+    }
+  }
+  conversation-drivers {
+    if (size(this) > 1 && limit == true) {
+      conversation-driver {
+        template-macro (showMore)
+      }
+    }
+    if (size(this) > 1 && place_type != '공원'){
+      conversation-driver {
+        template-macro(Park)
+      }
+    }
+    if (size(this) > 1 && place_type != '바다'){
+      conversation-driver {
+        template-macro(Sea)
+      }
+    }
+    if (size(this) > 1 && place_type != '액티비티'){
+      conversation-driver {
+        template-macro(Activity)
+      }
+    }
+    if (size(this) > 1 && place_type != '산'){
+      conversation-driver {
+        template-macro(Climbing)
+      }
+    }
+    if (size(this) > 1 && place_type != '워터파크'){
+      conversation-driver {
+        template-macro(Waterpark)
+      }
+    }
+    if (size(this) > 1 && place_type != '문화재'){
+      conversation-driver {
+        template-macro(Culture)
+      }
+    }
+    if (size(this) > 1 && place_type != '놀이동산'){
+      conversation-driver {
+        template-macro(Amusement)
+      }
+    }
+    if (size(this) > 1 && place_type != '축제'){
+      conversation-driver {
+        template-macro(Festival)
+      }
+    }
+  }
+}
