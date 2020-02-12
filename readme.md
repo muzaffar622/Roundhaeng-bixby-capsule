@@ -8,7 +8,14 @@ cultural heritage, etc and information about them in real time. (Only for KR)
 
 이 캡슐은 국내 액티비티, 축제, 산, 바다, 워터파크, 놀이동산, 공원, 문화재 등 다양한 장소 정보를 실시간으로 알려 주는 캡슐입니다.)
 
-
+  <img src="https://github.com/muzaffar622/roundhaengCapsule/blob/master/imgs/1.jpeg?raw=true" 
+width="200" height="400"/>
+<img src="https://github.com/muzaffar622/roundhaengCapsule/blob/master/imgs/2.jpeg?raw=true" 
+width="200" height="400"/>
+<img src="https://github.com/muzaffar622/roundhaengCapsule/blob/master/imgs/3.jpeg?raw=true" 
+width="200" height="400"/>
+<img src="https://github.com/muzaffar622/roundhaengCapsule/blob/master/imgs/4.jpeg?raw=true" 
+width="200" height="400"/>
 # Usage
 
 
@@ -43,7 +50,7 @@ BackEnd part is as still not opened, you should give data by default.
 파크: Designed by [xnimrodx](https://www.flaticon.com/authors/xnimrodx ) from www.flaticon.com <br/>
 카메라: Designed by [Dave Gandy](https://www.flaticon.com/authors/dave-gandy) from www.flaticon.com <br/>
 },<br>
-연락처 = {<br>
+연락처 = {<br> 
 전화: Designed by [Freepik](https://www.freepik.com/) from www.flaticon.com <br>
 왭: Designed by [srip](https://www.flaticon.com/authors/srip) from www.flaticon.com <br> 
 },<br>
