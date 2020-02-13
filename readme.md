@@ -3,8 +3,8 @@
 </p>
 
 # 라운드 행 (RoundHaeng)
-bixby capsule for get list of festivals, activities, mountain, waterpark, park, amusement park, 
-cultural heritage, etc and information about them in real time. (Only for KR)
+bixby capsule for get information about festivals, activities, mountain, waterpark, park, amusement park, 
+cultural heritage, etc in real time. (Only for KR)
 
 이 캡슐은 국내 액티비티, 축제, 산, 바다, 워터파크, 놀이동산, 공원, 문화재 등 다양한 장소 정보를 실시간으로 알려 주는 캡슐입니다.)
 
@@ -35,11 +35,11 @@ width="200" height="400"/>
 ```
 
 # Issues
-If you have any questions, open the issue about it, and I will reply ASAP.
+If you have any questions, open the issue, and I will reply ASAP.
 궁금하시거나 이해가 안 되는 부분이 있다면 #issues 에서 댓글 남겨 주세요.
 
 # TODO List
-BackEnd part is as still not opened, you should give data by default. 
+As backEnd part is not available, output result will be empty (put some data by yourself). 
 백엔드 부분이 아직은 공개 되어 있지 않아 데이터는 직접 default 형식으로 주셔야 합니다.
 
 
